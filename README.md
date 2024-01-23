@@ -13,5 +13,5 @@
 
 ## Netlify Link:
 
-  + [Mini Calculator]()
+  + [Mini Calculator](https://mini-calculator-janani.netlify.app/)
 

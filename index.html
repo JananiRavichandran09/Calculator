@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="./CSS/style.css">
+</head>
+<body>
+    <h1 id="title">My Calculator</h1>
+
+<div class="container">
+   
+         <div class="calculator"> 
+
+    <input type="text" placeholder="0" id="result">
+    <button id="clear" onclick="Clear()">CL</button>
+    <button onclick="Delete()">D</button>
+    <button onclick="display('%')">%</button>
+    <button onclick="display('/')">/</button>
+    <button class="bg-color" onclick="display('7')">7</button>
+    <button class="bg-color" onclick="display('8')">8</button>
+    <button class="bg-color" onclick="display('9')">9</button>
+    <button onclick="display('*')">*</button>
+    <button class="bg-color" onclick="display('4')">4</button>
+    <button class="bg-color" onclick="display('5')">5</button>
+    <button class="bg-color" onclick="display('6')">6</button>
+    <button onclick="display('-')"  id="subtract">-</button>
+    <button class="bg-color" onclick="display('1')" id="1">1</button>
+    <button class="bg-color" onclick="display('2')" id="2">2</button>
+    <button class="bg-color" onclick="display('3')" id="3">3</button>
+    <button onclick="display('+')" id="add">+</button>
+    <button onclick="display('.')">.</button>
+    <button class="bg-color" onclick="display('0')">0</button>
+    <button id="equal" onclick="Calculate('')">=</button>
+
+</div>
+
+
+</div>
+<h3>Description about Calculator</h3>
+<p id="description">
+   
+    This is my mini calculator, a task centered around DOM manipulation. <br>
+    The result is displayed by creating an input tag in HTML and styling it with a stylesheet. <br>
+    Within the DOM, a variable is stored, and its value is retrieved using getElementById. <br>
+    Number and symbol buttons are displayed using functions. <br>
+    In the equal button, the calculate() function employs a try-catch method to evaluate operations. <br>
+    The try statement defines a block of code to test for errors during execution, <br>
+    while the catch statement defines a block of code to execute if an error occurs in the try block. <br>
+    The clear() function is used to reset input values. <br>
+    Additionally, the delete() function deletes values one by one using the slice method.</p> <br>
+    <script src="https://app.zenclass.in/sheets/v1/js/zen/suite/bundle.js"></script>
+    <script src="./JS/script.js"></script>
+</body>
+</html>
